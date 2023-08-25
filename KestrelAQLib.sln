@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KestrelAQLib", "KestrelAQLib.csproj", "{A697C7C3-E31F-49B7-9361-8EBF4D0BC366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KestrelAQLib", "KestrelAQLib.csproj", "{A697C7C3-E31F-49B7-9361-8EBF4D0BC366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "..\ConsoleApp3\ConsoleApp3.csproj", "{19F8B014-9224-495D-9A64-4001AC1897A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A697C7C3-E31F-49B7-9361-8EBF4D0BC366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A697C7C3-E31F-49B7-9361-8EBF4D0BC366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A697C7C3-E31F-49B7-9361-8EBF4D0BC366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F8B014-9224-495D-9A64-4001AC1897A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F8B014-9224-495D-9A64-4001AC1897A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F8B014-9224-495D-9A64-4001AC1897A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F8B014-9224-495D-9A64-4001AC1897A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

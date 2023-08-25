@@ -1,0 +1,11 @@
+C:\Dev\KestrelAQLib\obj\Debug\net6.0\KestrelAQLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\KestrelAQLib\obj\Debug\net6.0\KestrelAQLib.AssemblyInfoInputs.cache
+C:\Dev\KestrelAQLib\obj\Debug\net6.0\KestrelAQLib.AssemblyInfo.cs
+C:\Dev\KestrelAQLib\obj\Debug\net6.0\KestrelAQLib.csproj.CoreCompileInputs.cache
+C:\Dev\KestrelAQLib\bin\Debug\net6.0\KestrelAQLib.deps.json
+C:\Dev\KestrelAQLib\bin\Debug\net6.0\KestrelAQLib.dll
+C:\Dev\KestrelAQLib\bin\Debug\net6.0\KestrelAQLib.pdb
+C:\Dev\KestrelAQLib\obj\Debug\net6.0\KestrelAQLib.dll
+C:\Dev\KestrelAQLib\obj\Debug\net6.0\refint\KestrelAQLib.dll
+C:\Dev\KestrelAQLib\obj\Debug\net6.0\KestrelAQLib.pdb
+C:\Dev\KestrelAQLib\obj\Debug\net6.0\ref\KestrelAQLib.dll

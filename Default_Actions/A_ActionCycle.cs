@@ -1,4 +1,5 @@
 using KestrelAQLib;
+using Action = KestrelAQLib.Action;
 
 public class A_ActionCycle : Action
 {

@@ -1,6 +1,7 @@
 // Specialized Action that can be used in one action queue to detect whether another action queue has
 // finished its current action.
 using KestrelAQLib;
+using Action = KestrelAQLib.Action;
 
 public class A_WaitForCurrentActionToFinish : Action
 {

@@ -1,32 +1,36 @@
-// Wait for a specified amount of time to pass.
-using KestrelAQLib;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class A_WaitForTime : Action
+namespace KestrelAQLib.Default_Actions
 {
-    private float millis;
-    private float counter = 0.0f;
-
-    public A_WaitForTime(float _millis)
+    public class A_WaitForTime : Action
     {
-        millis = _millis;
-    }
+        private Task _timer;
+        private int _time;
 
-    public override bool Tick()
-    {
-        if (counter > millis)
+        public A_WaitForTime(int milliseconds)
         {
-            return true;
+            _time = milliseconds;
         }
-        counter += Time.deltaTime;
-        return false;
+
+        public override bool Tick()
+        {
+            return _timer.IsCompletedSuccessfully;
+        }
+
+        public override void whenStarted()
+        {
+            _timer = Task.Run(() => Thread.Sleep(_time));
+        }
+
+        public override string ToString()
+        {
+            return "Waiting for " + _time.ToString() + " milliseconds";
+        }
     }
 
-    public override void whenStarted() { }
-
-    public override void whenFinished() { }
-
-    public override string toString()
-    {
-        return "Waiting for ( " + millis + " )";
-    }
 }

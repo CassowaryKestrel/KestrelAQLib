@@ -44,6 +44,11 @@
             return d.size();
         }
 
+        public bool isEmpty()
+        {
+            return currentAction == null && peekAtFront() == null;
+        }
+
         public void addToFront(Action a)
         {
             d.addToFront(a);
